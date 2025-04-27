@@ -38,7 +38,7 @@ app.use(cors({
     credentials: true
 }));
 
-// Middleware
+// Middleware express
 app.use(express.json());
 
 // --- API ---
