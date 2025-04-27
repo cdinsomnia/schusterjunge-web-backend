@@ -2,7 +2,7 @@
     "version": 2,
     "functions": {
       "server.js": {
-        "runtime": "node stable"
+        "runtime": "node@20.x"
       }
     },
     "routes": [
