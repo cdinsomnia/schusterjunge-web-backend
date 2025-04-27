@@ -4,9 +4,9 @@ import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 
-import prisma from './src/lib/prisma.js';
-import authRoutes from './src/routes/authRoutes.js';
-import { protect } from './src/middleware/authMiddleware.js';
+import prisma from '../src/lib/prisma.js';
+import authRoutes from '../src/routes/authRoutes.js';
+import { protect } from '../src/middleware/authMiddleware.js';
 
 const app = express();
 const PORT = process.env.PORT || 3001;
