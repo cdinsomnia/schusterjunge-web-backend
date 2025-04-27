@@ -2,6 +2,7 @@
     "version": 2,
     "functions": {
       "server.js": {
+        "maxDuration": 10
       }
     },
     "routes": [
